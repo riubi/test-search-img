@@ -1,0 +1,915 @@
+{
+ "keypoints_raw": {
+  "bosmina_1.jpg": 3372,
+  "bosmina_2.jpg": 3682,
+  "bosmina_3.jpg": 2645,
+  "bosmina_4.jpg": 3871,
+  "bosmina_5.jpg": 3297,
+  "bosmina_6.jpg": 486
+ },
+ "keypoints": {
+  "bosmina_1.jpg": 1400,
+  "bosmina_2.jpg": 1510,
+  "bosmina_3.jpg": 1219,
+  "bosmina_4.jpg": 1449,
+  "bosmina_5.jpg": 1342,
+  "bosmina_6.jpg": 357
+ },
+ "pairs": [
+  {
+   "pair": [
+    1,
+    2
+   ],
+   "ratio": 217,
+   "mutual": 50,
+   "inliers": 6,
+   "final": 76,
+   "ok": true,
+   "scale": 1.2476111729928117,
+   "angle": -15.266997419791048
+  },
+  {
+   "pair": [
+    1,
+    3
+   ],
+   "ratio": 197,
+   "mutual": 40,
+   "inliers": 5,
+   "final": 69,
+   "ok": false,
+   "scale": 1.25143752425165,
+   "angle": 18.138959844787692
+  },
+  {
+   "pair": [
+    1,
+    4
+   ],
+   "ratio": 206,
+   "mutual": 46,
+   "inliers": 6,
+   "final": 36,
+   "ok": false,
+   "scale": 0.5933732037824363,
+   "angle": -39.140483791610684
+  },
+  {
+   "pair": [
+    1,
+    5
+   ],
+   "ratio": 229,
+   "mutual": 53,
+   "inliers": 8,
+   "final": 70,
+   "ok": true,
+   "scale": 1.2036320061586305,
+   "angle": 0.37793888391115604
+  },
+  {
+   "pair": [
+    1,
+    6
+   ],
+   "ratio": 235,
+   "mutual": 17,
+   "inliers": 4,
+   "final": 20,
+   "ok": false,
+   "scale": 1.8809255295862137,
+   "angle": -0.0018240604792261854
+  },
+  {
+   "pair": [
+    2,
+    3
+   ],
+   "ratio": 190,
+   "mutual": 37,
+   "inliers": 8,
+   "final": 75,
+   "ok": true,
+   "scale": 0.9636145738554217,
+   "angle": 18.112821942598323
+  },
+  {
+   "pair": [
+    2,
+    4
+   ],
+   "ratio": 233,
+   "mutual": 55,
+   "inliers": 8,
+   "final": 73,
+   "ok": true,
+   "scale": 0.8806732569520233,
+   "angle": -5.924308477969688
+  },
+  {
+   "pair": [
+    2,
+    5
+   ],
+   "ratio": 238,
+   "mutual": 48,
+   "inliers": 7,
+   "final": 58,
+   "ok": true,
+   "scale": 0.7886691122093024,
+   "angle": 0.4956327177041545
+  },
+  {
+   "pair": [
+    2,
+    6
+   ],
+   "ratio": 275,
+   "mutual": 21,
+   "inliers": 4,
+   "final": 15,
+   "ok": false,
+   "scale": 1.1176986662929655,
+   "angle": 2.98013396319204
+  },
+  {
+   "pair": [
+    3,
+    4
+   ],
+   "ratio": 215,
+   "mutual": 45,
+   "inliers": 8,
+   "final": 65,
+   "ok": true,
+   "scale": 1.1552957353182094,
+   "angle": 4.697265898938471
+  },
+  {
+   "pair": [
+    3,
+    5
+   ],
+   "ratio": 217,
+   "mutual": 30,
+   "inliers": 6,
+   "final": 40,
+   "ok": true,
+   "scale": 0.8614937178296044,
+   "angle": 36.12967922329103
+  },
+  {
+   "pair": [
+    3,
+    6
+   ],
+   "ratio": 194,
+   "mutual": 11,
+   "inliers": 3,
+   "final": 12,
+   "ok": false,
+   "scale": 0.9176146170246128,
+   "angle": -0.2436241008533114
+  },
+  {
+   "pair": [
+    4,
+    5
+   ],
+   "ratio": 223,
+   "mutual": 45,
+   "inliers": 7,
+   "final": 87,
+   "ok": true,
+   "scale": 1.0116048025316549,
+   "angle": 4.487233757634567
+  },
+  {
+   "pair": [
+    4,
+    6
+   ],
+   "ratio": 238,
+   "mutual": 21,
+   "inliers": 5,
+   "final": 0,
+   "ok": false,
+   "scale": 0.10582538312586735,
+   "angle": -80.13869027327293
+  },
+  {
+   "pair": [
+    5,
+    6
+   ],
+   "ratio": 267,
+   "mutual": 18,
+   "inliers": 5,
+   "final": 23,
+   "ok": false,
+   "scale": 1.004102897361584,
+   "angle": 19.775925893309985
+  }
+ ],
+ "reference": "bosmina_2.jpg",
+ "to_reference": {
+  "bosmina_1.jpg": {
+   "source": "по силуэту",
+   "iou": 0.811,
+   "matches": 205
+  },
+  "bosmina_3.jpg": {
+   "source": "по силуэту",
+   "iou": 0.816,
+   "matches": 233
+  },
+  "bosmina_4.jpg": {
+   "source": "по силуэту",
+   "iou": 0.726,
+   "matches": 202
+  },
+  "bosmina_5.jpg": {
+   "source": "по силуэту",
+   "iou": 0.76,
+   "matches": 204
+  },
+  "bosmina_6.jpg": {
+   "source": "по силуэту",
+   "iou": 0.828,
+   "matches": 63
+  }
+ },
+ "seen_in_k_images": {
+  "1": 529,
+  "2": 148,
+  "3": 23,
+  "4": 2,
+  "5": 1
+ },
+ "common_all": 1,
+ "found_on_n_images": {
+  "4": 23,
+  "5": 2,
+  "6": 1
+ },
+ "tracks": [
+  {
+   "n": 1,
+   "images": 6,
+   "confirmed": 0,
+   "mean_dist": 360.6,
+   "bosmina_1.jpg": [
+    1566.0,
+    331.1
+   ],
+   "bosmina_2.jpg": [
+    1029.6,
+    410.1
+   ],
+   "bosmina_3.jpg": [
+    453.4,
+    357.2
+   ],
+   "bosmina_4.jpg": [
+    1198.2,
+    290.7
+   ],
+   "bosmina_5.jpg": [
+    820.1,
+    233.9
+   ],
+   "bosmina_6.jpg": [
+    490.3,
+    64.1
+   ]
+  },
+  {
+   "n": 2,
+   "images": 5,
+   "confirmed": 0,
+   "mean_dist": 384.2,
+   "bosmina_1.jpg": [
+    1636.9,
+    619.6
+   ],
+   "bosmina_2.jpg": [
+    958.2,
+    675.9
+   ],
+   "bosmina_3.jpg": [
+    437.6,
+    577.8
+   ],
+   "bosmina_4.jpg": [
+    1305.6,
+    505.8
+   ],
+   "bosmina_5.jpg": [
+    803.7,
+    458.9
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 3,
+   "images": 5,
+   "confirmed": 0,
+   "mean_dist": 393.0,
+   "bosmina_1.jpg": [
+    737.5,
+    985.7
+   ],
+   "bosmina_2.jpg": [
+    2173.8,
+    1237.9
+   ],
+   "bosmina_3.jpg": [
+    1256.7,
+    996.2
+   ],
+   "bosmina_4.jpg": [
+    412.1,
+    949.7
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": [
+    124.3,
+    339.2
+   ]
+  },
+  {
+   "n": 4,
+   "images": 4,
+   "confirmed": 1,
+   "mean_dist": 308.4,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    336.8,
+    1025.6
+   ],
+   "bosmina_3.jpg": [
+    56.8,
+    839.8
+   ],
+   "bosmina_4.jpg": [
+    1812.5,
+    763.5
+   ],
+   "bosmina_5.jpg": [
+    308.8,
+    705.5
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 5,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 266.3,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    1326.7,
+    264.3
+   ],
+   "bosmina_3.jpg": [
+    681.5,
+    258.2
+   ],
+   "bosmina_4.jpg": [
+    985.0,
+    247.4
+   ],
+   "bosmina_5.jpg": [
+    1130.9,
+    190.2
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 6,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 294.2,
+   "bosmina_1.jpg": [
+    1380.8,
+    1577.5
+   ],
+   "bosmina_2.jpg": [
+    1310.1,
+    1997.0
+   ],
+   "bosmina_3.jpg": null,
+   "bosmina_4.jpg": [
+    1041.4,
+    1487.2
+   ],
+   "bosmina_5.jpg": [
+    1053.9,
+    1438.8
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 7,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 311.5,
+   "bosmina_1.jpg": [
+    546.3,
+    595.2
+   ],
+   "bosmina_2.jpg": [
+    2353.9,
+    742.5
+   ],
+   "bosmina_3.jpg": [
+    1368.6,
+    609.1
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": [
+    70.9,
+    142.5
+   ]
+  },
+  {
+   "n": 8,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 314.4,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    1588.4,
+    1838.5
+   ],
+   "bosmina_3.jpg": [
+    857.3,
+    1401.7
+   ],
+   "bosmina_4.jpg": [
+    832.8,
+    1447.3
+   ],
+   "bosmina_5.jpg": [
+    1285.1,
+    1416.8
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 9,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 319.4,
+   "bosmina_1.jpg": [
+    1380.6,
+    1383.3
+   ],
+   "bosmina_2.jpg": [
+    1352.3,
+    1721.5
+   ],
+   "bosmina_3.jpg": [
+    723.4,
+    1282.3
+   ],
+   "bosmina_4.jpg": [
+    1019.0,
+    1275.2
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 10,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 330.5,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    474.3,
+    1250.0
+   ],
+   "bosmina_3.jpg": [
+    66.0,
+    970.2
+   ],
+   "bosmina_4.jpg": [
+    1707.8,
+    1002.4
+   ],
+   "bosmina_5.jpg": [
+    398.9,
+    933.9
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 11,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 340.1,
+   "bosmina_1.jpg": [
+    630.2,
+    1124.7
+   ],
+   "bosmina_2.jpg": [
+    2182.5,
+    1440.0
+   ],
+   "bosmina_3.jpg": [
+    1213.1,
+    1073.6
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": [
+    1743.5,
+    1012.1
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 12,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 354.7,
+   "bosmina_1.jpg": [
+    1870.4,
+    562.8
+   ],
+   "bosmina_2.jpg": [
+    653.1,
+    579.8
+   ],
+   "bosmina_3.jpg": [
+    233.1,
+    567.8
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": [
+    611.4,
+    103.6
+   ]
+  },
+  {
+   "n": 13,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 364.4,
+   "bosmina_1.jpg": [
+    1057.7,
+    1245.4
+   ],
+   "bosmina_2.jpg": [
+    1773.9,
+    1530.2
+   ],
+   "bosmina_3.jpg": [
+    936.6,
+    1192.9
+   ],
+   "bosmina_4.jpg": [
+    723.7,
+    1183.1
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 14,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 369.2,
+   "bosmina_1.jpg": [
+    748.4,
+    1044.4
+   ],
+   "bosmina_2.jpg": [
+    2112.7,
+    1276.1
+   ],
+   "bosmina_3.jpg": null,
+   "bosmina_4.jpg": [
+    493.9,
+    1001.7
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": [
+    129.9,
+    353.3
+   ]
+  },
+  {
+   "n": 15,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 371.9,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    1829.8,
+    1476.4
+   ],
+   "bosmina_3.jpg": [
+    964.5,
+    1145.8
+   ],
+   "bosmina_4.jpg": [
+    614.1,
+    1130.6
+   ],
+   "bosmina_5.jpg": [
+    1454.4,
+    1154.5
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 16,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 374.8,
+   "bosmina_1.jpg": [
+    1091.5,
+    1251.9
+   ],
+   "bosmina_2.jpg": [
+    1728.3,
+    1559.3
+   ],
+   "bosmina_3.jpg": [
+    899.0,
+    1167.9
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": [
+    1400.4,
+    1210.9
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 17,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 375.0,
+   "bosmina_1.jpg": [
+    1094.2,
+    849.2
+   ],
+   "bosmina_2.jpg": [
+    1667.7,
+    947.9
+   ],
+   "bosmina_3.jpg": [
+    881.9,
+    749.9
+   ],
+   "bosmina_4.jpg": [
+    728.6,
+    747.4
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 18,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 377.7,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    773.6,
+    548.3
+   ],
+   "bosmina_3.jpg": [
+    290.7,
+    517.2
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": [
+    670.2,
+    426.9
+   ],
+   "bosmina_6.jpg": [
+    600.4,
+    75.3
+   ]
+  },
+  {
+   "n": 19,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 381.4,
+   "bosmina_1.jpg": [
+    1520.8,
+    1127.6
+   ],
+   "bosmina_2.jpg": [
+    1032.9,
+    1347.7
+   ],
+   "bosmina_3.jpg": [
+    482.1,
+    1055.3
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": [
+    839.9,
+    1050.5
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 20,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 383.8,
+   "bosmina_1.jpg": [
+    1826.0,
+    986.2
+   ],
+   "bosmina_2.jpg": [
+    723.7,
+    1224.0
+   ],
+   "bosmina_3.jpg": [
+    289.6,
+    1000.5
+   ],
+   "bosmina_4.jpg": [
+    1464.1,
+    876.9
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 21,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 385.4,
+   "bosmina_1.jpg": [
+    1934.6,
+    844.0
+   ],
+   "bosmina_2.jpg": [
+    523.1,
+    1087.6
+   ],
+   "bosmina_3.jpg": null,
+   "bosmina_4.jpg": [
+    1614.6,
+    836.3
+   ],
+   "bosmina_5.jpg": [
+    524.1,
+    788.0
+   ],
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 22,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 387.7,
+   "bosmina_1.jpg": [
+    1586.3,
+    642.3
+   ],
+   "bosmina_2.jpg": [
+    990.7,
+    706.7
+   ],
+   "bosmina_3.jpg": [
+    477.5,
+    639.4
+   ],
+   "bosmina_4.jpg": [
+    1231.7,
+    542.6
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 23,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 397.4,
+   "bosmina_1.jpg": [
+    888.7,
+    880.7
+   ],
+   "bosmina_2.jpg": [
+    1909.8,
+    1152.0
+   ],
+   "bosmina_3.jpg": [
+    1127.0,
+    892.0
+   ],
+   "bosmina_4.jpg": [
+    540.2,
+    909.3
+   ],
+   "bosmina_5.jpg": null,
+   "bosmina_6.jpg": null
+  },
+  {
+   "n": 24,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 414.7,
+   "bosmina_1.jpg": [
+    671.6,
+    914.9
+   ],
+   "bosmina_2.jpg": [
+    2233.1,
+    1131.2
+   ],
+   "bosmina_3.jpg": null,
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": [
+    1738.4,
+    886.9
+   ],
+   "bosmina_6.jpg": [
+    65.2,
+    283.7
+   ]
+  },
+  {
+   "n": 25,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 427.1,
+   "bosmina_1.jpg": null,
+   "bosmina_2.jpg": [
+    1300.5,
+    398.9
+   ],
+   "bosmina_3.jpg": null,
+   "bosmina_4.jpg": [
+    1084.5,
+    284.4
+   ],
+   "bosmina_5.jpg": [
+    1013.0,
+    297.6
+   ],
+   "bosmina_6.jpg": [
+    427.6,
+    48.8
+   ]
+  },
+  {
+   "n": 26,
+   "images": 4,
+   "confirmed": 0,
+   "mean_dist": 431.1,
+   "bosmina_1.jpg": [
+    1667.3,
+    1649.6
+   ],
+   "bosmina_2.jpg": [
+    903.2,
+    2012.9
+   ],
+   "bosmina_3.jpg": [
+    339.5,
+    1516.7
+   ],
+   "bosmina_4.jpg": null,
+   "bosmina_5.jpg": [
+    791.5,
+    1458.6
+   ],
+   "bosmina_6.jpg": null
+  }
+ ],
+ "params": {
+  "method": "SIFT",
+  "nfeatures": 0,
+  "nOctaveLayers": 3,
+  "contrastThreshold": 0.04,
+  "edgeThreshold": 10,
+  "sigma": 1.6,
+  "desc_scale": 1.0,
+  "upright": false,
+  "rootsift": false,
+  "obj_size": 400,
+  "clahe": true,
+  "mirror": true,
+  "dedup": 0.015,
+  "ratio": 0.9,
+  "window": 0.3,
+  "ransac_thr": 0.05,
+  "size_ratio": 2.0,
+  "min_inliers": 6,
+  "top_n": 30
+ }
+}
